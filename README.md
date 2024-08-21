@@ -38,5 +38,5 @@ Storyku is a web application that allows users to manage their stories. The appl
 * `public/` - Static files like `index.html` and manifest
 * `src/` - Main source directory containing React components and styles
 
-## <a name="apk-link"></a> Website URL :
-[YouTube Link](https://your-youtube-link-here)
+Website URL: [YouTube Link](https://your-youtube-link-here)
+
