@@ -1,0 +1,159 @@
+### Insert Story 1
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "The Lost Kingdom",
+    "writer_name": "Alice Johnson",
+    "synopsis": "An epic journey through a forgotten realm.",
+    "category": "Fantasy",
+    "tags": "adventure,magic,kingdom",
+    "cover_image": "",
+    "status": "publish"
+}
+
+### Insert Story 2
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "Love in the Time of Chaos",
+    "writer_name": "John Doe",
+    "synopsis": "A love story set in a world on the brink of war.",
+    "category": "Romance",
+    "tags": "love,war,drama",
+    "cover_image": "http://example.com/images/love_chaos.jpg",
+    "status": "draft"
+}
+
+### Insert Story 3
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "The Haunted Forest",
+    "writer_name": "Emily Clark",
+    "synopsis": "A group of friends venture into a forest with a dark past.",
+    "category": "Teen Fiction",
+    "tags": "horror,friendship,mystery",
+    "cover_image": "http://example.com/images/haunted_forest.jpg",
+    "status": "publish"
+}
+
+### Insert Story 4
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "A Life Unwritten",
+    "writer_name": "Michael Brown",
+    "synopsis": "A man decides to start anew and rewrite his destiny.",
+    "category": "Non Fiction",
+    "tags": "inspiration,self-help,journey",
+    "cover_image": "http://example.com/images/life_unwritten.jpg",
+    "status": "draft"
+}
+
+### Insert Story 5
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "Whispers of the Past",
+    "writer_name": "Sophia Williams",
+    "synopsis": "Old secrets resurface in a small town.",
+    "category": "Fantasy",
+    "tags": "mystery,small town,history",
+    "cover_image": "http://example.com/images/whispers_past.jpg",
+    "status": "publish"
+}
+
+### Insert Story 6
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "Shadows of War",
+    "writer_name": "David Lee",
+    "synopsis": "A soldier's tale of survival during wartime.",
+    "category": "Romance",
+    "tags": "war,survival,romance",
+    "cover_image": "http://example.com/images/shadows_war.jpg",
+    "status": "draft"
+}
+
+### Insert Story 7
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "The Final Countdown",
+    "writer_name": "Mia Davis",
+    "synopsis": "As the clock ticks down, can they save the world in time?",
+    "category": "Teen Fiction",
+    "tags": "action,thriller,time",
+    "cover_image": "http://example.com/images/final_countdown.jpg",
+    "status": "publish"
+}
+
+### Insert Story 8
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "Through the Looking Glass",
+    "writer_name": "James Wilson",
+    "synopsis": "A mysterious mirror leads to an alternate reality.",
+    "category": "Fantasy",
+    "tags": "mirror,alternate reality,mystery",
+    "cover_image": "http://example.com/images/looking_glass.jpg",
+    "status": "draft"
+}
+
+### Insert Story 9
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "The Art of Letting Go",
+    "writer_name": "Emma Taylor",
+    "synopsis": "A guide to moving on from past relationships.",
+    "category": "Non Fiction",
+    "tags": "self-help,relationships,healing",
+    "cover_image": "http://example.com/images/letting_go.jpg",
+    "status": "publish"
+}
+
+### Insert Story 10
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "Beneath the Surface",
+    "writer_name": "Oliver Martinez",
+    "synopsis": "A deep-sea exploration reveals more than expected.",
+    "category": "Fantasy",
+    "tags": "exploration,ocean,mystery",
+    "cover_image": "http://example.com/images/beneath_surface.jpg",
+    "status": "draft"
+}
+
+### Insert Story 10
+DELETE http://localhost:5000/stories/11
+Content-Type: application/json
+
+{
+    "title": "ardi",
+    "writer_name": "Oliver ardi",
+    "synopsis": "A deep-sea exploration reveals more than expected.",
+    "category": "Fantasy",
+    "tags": "exploration,ocean,mystery",
+    "cover_image": "http://example.com/images/beneath_surface.jpg",
+    "status": "draft"
+}
+
+###
+
+PATCH  url HTTP/1.1 http://localhost:5000/stories/11
+Content-Type: application/json
+
